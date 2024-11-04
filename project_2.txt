@@ -3,3 +3,10 @@ git config --global user.email "mandolinprajwal@gmail.com"
 git clone https://github.com/prajwal-p-2003/devops.git
 cd devops
 ls
+
+//to push repository into git
+git add filename.txt
+git add .
+git commit -m "first commit"
+git push origin main 
+git pull origin main
